@@ -1,0 +1,15 @@
+{
+  "name": "ember-script-brunch",
+  "version": "0.1.0",
+  "description": "Adds EmberScript support to brunch",
+  "author": "Greg V <floatboth@me.com> (http://floatboth.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/myfreeweb/ember-script-brunch.git"
+  },
+  "main": "./lib/index",
+  "dependencies": {
+    "ember-script": "git://github.com/myfreeweb/ember-script.git#patch-1",
+    "coffee-script": "1.6.2"
+  }
+}
