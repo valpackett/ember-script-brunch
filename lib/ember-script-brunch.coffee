@@ -23,7 +23,7 @@ module.exports = class EmberScriptCompiler
     try
       normalizedVendor = normalizeChecker @config?.conventions?.vendor
       bare = not normalizedVendor path
-      result = es.compile data, {bare}
+      result = es.em2js data, {bare}
     catch err
       error = err
     finally
